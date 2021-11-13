@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android-sdk/Projects/coo_eat/app/src/main/res/drawable/edittext_rounded_corner_rectangle.xml" value="0.13385416666666666" />
+        <entry key="..\:/android-sdk/Projects/coo_eat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13385416666666666" />
+        <entry key="..\:/android-sdk/Projects/coo_eat/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/android-sdk/Projects/coo_eat/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
