@@ -15,12 +15,28 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView4"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="429dp"
-                android:scaleType="fitStart"
-                app:srcCompat="@drawable/soup" />
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="429dp"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/soup" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/back" />
+                <!--                todo: header가 달라붙는 스크롤뷰 구현-->
+            </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -67,11 +83,94 @@
 
             <View
                 android:id="@+id/view2"
-                android:layout_gravity="center"
                 android:layout_width="390dp"
                 android:layout_height="1dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="6dp"
                 android:background="@color/gray_1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="재료"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="43dp"
+                android:layout_marginBottom="47dp"
+                android:gravity="center"
+                android:text="고구마죽 고구마 100g(2/3개), 설탕 2g(1/3작은술), 찹쌀가루 3g(2/3작은술),물 200ml(1컵), 잣 8g(8알)" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="390dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/gray_1" />
+
+            <TextView
+                android:id="@+id/textViewW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="43dp"
+                android:gravity="center"
+                android:text="조리방법"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="fitStart"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:layout_marginBottom="58dp"
+                android:gravity="center"
+                android:text="1. 고구마는 깨끗이 씻어서 껍질을 벗기고 4cm 정도로 잘라준다" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="fitStart"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:layout_marginBottom="58dp"
+                android:gravity="center"
+                android:text="1. 고구마는 깨끗이 씻어서 껍질을 벗기고 4cm 정도로 잘라준다" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="fitStart"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:layout_marginBottom="58dp"
+                android:gravity="center"
+                android:text="1. 고구마는 깨끗이 씻어서 껍질을 벗기고 4cm 정도로 잘라준다" />
 
 
         </LinearLayout>
